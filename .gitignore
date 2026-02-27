@@ -10,3 +10,16 @@ env/
 # Project specific
 Converted_PDFs*/
 log_reports.txt
+
+```text
+# PyInstaller & Build files
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+venv/
+
+# Project Outputs
+Converted_PDFs_*/

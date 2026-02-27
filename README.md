@@ -1,16 +1,18 @@
-# High-Fidelity Image to PDF Converter 🖼️➡️📄
+# Python Automation Toolkit 🛠️
 
-A professional-grade Python tool built with `Tkinter` and `Pillow` to convert images (JPG, PNG, BMP) into high-quality PDFs.
+A collection of professional-grade automation scripts.
 
-## ✨ Key Features
-* **Unique Batching:** Automatically creates timestamped folders for every conversion run.
-* **Security:** Uses binary "Magic Number" verification to ensure file integrity.
-* **High Fidelity:** Saves PDFs at 300 DPI for print-ready quality.
-* **Real-time Logging:** Generates a `log_reports.txt` for every session.
-* **User Friendly:** Multi-threaded UI remains responsive during conversion.
+## 1. High-Fidelity Image to PDF Converter (V2) 🖼️➡️📄
+A powerful tool to convert modern and legacy image formats into print-ready PDFs.
 
-## 🛠️ Installation
+### ✨ Key Features
+* **Expanded Support:** Now supports **WebP** and **HEIC** (iPhone) alongside JPG, PNG, and BMP.
+* **Batch Processing:** Automatically creates timestamped folders for organized output.
+* **High Fidelity:** Saves PDFs at 300 DPI.
+* **Smart Logging:** Generates a detailed `conversion_log.txt` for every session.
+
+### 🛠️ Installation & Usage
 1. Clone the repository.
 2. Install dependencies:
    ```bash
-   pip install Pillow
+   pip install -r requirements.txt
