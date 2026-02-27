@@ -1,0 +1,12 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+env/
+.env
+
+# Project specific
+Converted_PDFs*/
+log_reports.txt
