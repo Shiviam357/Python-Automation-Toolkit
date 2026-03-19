@@ -1,0 +1,18 @@
+import math
+def calculate_parking_fee(park_time, pickup_time):
+#splitting hours and minutes
+    park_list=park_time.split(":");     
+    pickup_list=pickup_time.split(":")
+    
+    park_total_mins = int(park_list[0])*60 + int(park_list[1]);     
+    pickup_total_mins = int(pickup_list[0])*60 + int(pickup_list[1])
+    parked_duration = ((pickup_total_mins-park_total_mins)+1440)%1440 #24hours*60minutes=1440minutes
+#Partial hours are rounded up to the next full hour using ceiling function
+#fees calculation: 
+    parking_fees=(math.ceil(parked_duration/60))*3
+#overnight fees:
+    if pickup_total_mins<park_total_mins:parking_fees+=10
+#minimum fee check:
+    if parking_fees<5: parking_fees=5
+    net_parking_fees="$"+str(parking_fees)
+    return net_parking_fees
