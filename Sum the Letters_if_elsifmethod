@@ -1,0 +1,32 @@
+#if elif method
+def sum_letters(s):
+    lower_s=s.lower()
+    summa=0
+    for l in lower_s:
+        if l=='a': summa+=1
+        elif l=='b': summa+=2
+        elif l=='c': summa+=3
+        elif l=='d': summa+=4
+        elif l=='e': summa+=5
+        elif l=='f': summa+=6
+        elif l=='g': summa+=7
+        elif l=='h': summa+=8
+        elif l=='i': summa+=9
+        elif l=='j': summa+=10
+        elif l=='k': summa+=11
+        elif l=='l': summa+=12
+        elif l=='m': summa+=13
+        elif l=='n': summa+=14
+        elif l=='o': summa+=15
+        elif l=='p': summa+=16
+        elif l=='q': summa+=17
+        elif l=='r': summa+=18
+        elif l=='s': summa+=19
+        elif l=='t': summa+=20
+        elif l=='u': summa+=21
+        elif l=='v': summa+=22
+        elif l=='w': summa+=23
+        elif l=='x': summa+=24
+        elif l=='y': summa+=25
+        elif l=='z': summa+=26
+    return summa
